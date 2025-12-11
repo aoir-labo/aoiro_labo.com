@@ -1,7 +1,11 @@
 # config.toml の内容
 baseURL = "https://aoiro-labo.com"  # 開発中はlocalhostでOK
 languageCode = "ja"
+<<<<<<< HEAD
 title = "備忘録的なもの｜aoiro-labo"
+=======
+title = "備忘録｜aoiro-labo"
+>>>>>>> 27b4bb1756bf546d1582026367c8d640b2411ba1
 theme = "PaperMod"
 
 # PaperMod の基本設定
