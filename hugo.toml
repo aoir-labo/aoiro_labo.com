@@ -1,0 +1,49 @@
+# config.toml の内容
+baseURL = "http://localhost:1313/"  # 開発中はlocalhostでOK
+languageCode = "ja"
+title = "備忘録"
+theme = "PaperMod"
+
+# PaperMod の基本設定
+enableEmoji = true
+[pagination]
+  pagerSize = 5
+defaultContentLanguage = "ja"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "履歴"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 20
+
+[params]
+  env = "production"
+  description = "HugoとCloudflare Pagesで構築した高速な個人ブログです。"
+  keywords = ["blog", "hugo", "cloudflare", "static"]
+  # ホームページの表示設定
+  [params.homeInfoParams]
+    Title = "Welcome"
+    Content = "ここは書かないと忘れることとかをネットの海に放流する場所です"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup.highlight]
+    anchorLineNos = true
+    codeClasses = false
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula" # 見やすいコードハイライトスタイル
+    tabWidth = 4
