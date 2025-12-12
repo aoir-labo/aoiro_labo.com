@@ -1,0 +1,49 @@
+{{ define "title" }}
+    {{ .Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<article class="prose max-w-none">
+    <header class="mb-8 border-b pb-4 border-gray-200 dark:border-gray-700">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-fg-base leading-tight"> {{ .Title }} </h1>
+        <div class="flex flex-wrap items-center text-sm text-fg-base/60">
+            <span class="mr-4">📅 {{ .Date.Format "2006-01-02" }}</span>
+            <span class="mr-4">⏱️ {{ .ReadingTime }} min read</span>
+            <div class="space-x-2">
+                {{ range .Params.tags }}
+                    <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}" class="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium hover:bg-primary hover:text-white transition-colors">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    <div class="flex flex-col md:flex-row gap-8">
+        <aside class="toc-container order-1 md:order-last w-full md:w-64 flex-shrink-0 mb-6 md:mb-0 md:sticky md:top-20 md:h-fit">
+            <div class="card p-5 rounded-xl bg-bg-base shadow-md border border-gray-100 dark:border-gray-800">
+                <h4 class="text-lg font-bold mb-3 border-b pb-2 border-gray-200 dark:border-gray-700">目次 (Table of Contents)</h4>
+                <nav class="text-sm space-y-2">
+                    {{ .TableOfContents }}
+                </nav>
+            </div>
+        </aside>
+
+        <div class="article-body flex-grow min-w-0 order-2 md:order-first">
+            {{ .Content }}
+        </div>
+    </div>
+</article>
+
+<section class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+    <h2 class="text-3xl font-bold mb-6">関連記事</h2>
+    <div class="space-y-6">
+        {{ $related := .Site.RegularPages.Related . | first 3 }}
+        {{ with $related }}
+            {{ range . }}
+                {{ partial "post-card-list.html" . }}
+            {{ end }}
+        {{ else }}
+            <p class="text-fg-base/70">関連する記事はまだありません。</p>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

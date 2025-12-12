@@ -1,0 +1,17 @@
+{{ define "title" }}
+    記事一覧 | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="mb-10">
+    <h1 class="text-4xl font-extrabold mb-8 text-fg-base border-b pb-4 border-primary/20">{{ .Title }}</h1>
+
+    <div class="space-y-8">
+        {{ range .Paginator.Pages }}
+            {{ partial "post-card-list.html" . }}
+        {{ end }}
+    </div>
+
+    {{ partial "pagination.html" . }}
+</div>
+{{ end }}

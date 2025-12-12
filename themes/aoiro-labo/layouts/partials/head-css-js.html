@@ -1,0 +1,37 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': 'var(--primary)', 'bg-base': 'var(--bg)',
+                        'fg-base': 'var(--fg)', 'card-bg': 'var(--card-bg)',
+                    },
+                    fontFamily: {
+                        sans: ['"Zen Maru Gothic"', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* THEME VARIABLES & CUSTOM CSS (省略 - baseof.htmlに記載の内容と同じ) */
+        /* ... */
+        /* 記事本文のスタイル調整 (single.htmlから移動) */
+        .article-body h2 { /* ... */ }
+        .article-body h3 { /* ... */ }
+        .article-body p { /* ... */ }
+        .article-body code:not([class*="language-"]) { /* ... */ }
+        .article-body pre { /* ... */ }
+    </style>
+</head>
