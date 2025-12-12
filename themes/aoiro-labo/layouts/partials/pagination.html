@@ -1,6 +1,9 @@
-{{ if gt .Paginator.TotalPages 1 }}
+{{/* Paginatorオブジェクトを変数に格納 */}}
+{{ $paginator := .Paginator }}
+
+{{ if gt $paginator.TotalPages 1 }}
 <div class="pagination flex justify-center mt-10 space-x-3">
-    {{ with .Paginator.Prev }}
+    {{ with $paginator.Prev }}
         <a href="{{ .URL }}" class="flex items-center justify-center h-10 w-10 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors">
             &larr;
         </a>
@@ -10,9 +13,10 @@
         </span>
     {{ end }}
 
-    {{ range .Paginator.Pagers }}
+    {{ range $paginator.Pagers }}
         <a href="{{ .URL }}" class="flex items-center justify-center h-10 w-10 rounded-full font-medium
-            {{ if eq . $Paginator.PageNumber }}
+            {{ if eq .PageNumber $paginator.PageNumber }}
+                {{/* .PageNumber (現在のPager) と $paginator.PageNumber (現在のページ番号) を比較 */}}
                 bg-primary text-white shadow-md
             {{ else }}
                 border border-gray-300 dark:border-gray-700 text-fg-base/80 hover:bg-primary/10 hover:border-primary transition-colors
@@ -21,7 +25,7 @@
         </a>
     {{ end }}
 
-    {{ with .Paginator.Next }}
+    {{ with $paginator.Next }}
         <a href="{{ .URL }}" class="flex items-center justify-center h-10 w-10 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors">
             &rarr;
         </a>
