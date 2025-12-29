@@ -1,5 +1,17 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.custom.scripts": [
+    {
+      "id": "r2-upload",
+      "title": "Upload to R2",
+      "script": "./r2_upload.js",
+      "command": "node",
+      "type": "mediaFile"
+    }
+  ],
+  "frontMatter.external.media.scripts": [
+    "r2-upload"
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
