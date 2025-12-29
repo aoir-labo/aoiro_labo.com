@@ -1,0 +1,17 @@
+/* 検索結果のハイライト */
+.search-page mark {
+    background: rgba(255, 235, 59, 0.4);
+    color: inherit;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* 検索窓のスタイル調整 */
+#searchInput {
+    border: 2px solid var(--border);
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: var(--tertiary);
+}
