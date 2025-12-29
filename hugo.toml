@@ -30,7 +30,7 @@ theme = "PaperMod"
 
   # Profile Mode
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "aoiro-labo"
     subtitle = "放送とアニメとバーチャルを愛する特殊なオタク。趣味雑多、広く浅く時々深く。DTV/VTuber/Anime/カラオケ/公共放送 他。"
     imageUrl = "https://pbs.twimg.com/profile_images/1797893047242407936/k-pXm8xZ_400x400.jpg"
