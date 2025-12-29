@@ -1,31 +1,93 @@
-# config.toml の内容
-baseURL = "https://aoiro-labo.com"  # 開発中はlocalhostでOK
+baseURL = "https://aoiro-labo.com"
 languageCode = "ja"
-title = "備忘録的なもの｜aoiro-labo"
-theme = "rusty-typewriter"
+title = "aoiro-labo"
+theme = "PaperMod"
 
-[params.rtwt]
-  sidePane = true
-  countPageItems = 7
+# -----------------------------------------------------------------------------
+# メニュー設定 (Postsに統一、Aboutを削除)
+# -----------------------------------------------------------------------------
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search"
+    weight = 30
 
-[params.rtwt.home]
-  showBio = true
-  showAuthorImg = true
-  sidePaneTags = true
-  showFeatured = true
-  showRecent = true
-  hideRecentWhenFeatured = true
-  countRecent = 5
+# -----------------------------------------------------------------------------
+# テーマ固有のパラメータ設定 (PaperMod)
+# -----------------------------------------------------------------------------
+[params]
+  env = "production"
+  title = "aoiro-labo"
+  description = "Technical notes and life log."
+  author = "aoiro"
+  
+  # シンプル・備忘録スタイル
+  # ---------------------------------------------------------------------------
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowFullTextContent = false
+  disableSpecial1stPost = true # 全ての記事を同じサイズで並べて「リスト感」を出す
+  displayFullLangName = true
+  
+  # ダークモード設定
+  defaultTheme = "auto"
+  disableThemeToggle = false
 
-[params.rtwt.side.home]
-  sidePaneSticky = true
-  taxonomies = ['tags']
-  countTaxonomy = 5
+  # ホーム画面の紹介（プロフィールの代わり）
+  # ---------------------------------------------------------------------------
+  [params.homeInfoParams]
+    Title = "aoiro-labo"
+    Content = "ゆるい制作ログと、日々の断片。"
 
-[params.rtwt.side.single]
-  sidePaneSticky = true
-  showDetails = true
-  showTableOfContents = true
-  showAttachments = true
-  showRelated = true
-  countRelated = 5
+  # SNSリンクの設定（プロフィールカードにアイコンが表示されます）
+  # ---------------------------------------------------------------------------
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/aoiro_labo"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/aoir-labo"
+
+  # 検索機能の有効化
+  # ---------------------------------------------------------------------------
+  [outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+  # 記事の画像設定
+  # ---------------------------------------------------------------------------
+  [params.cover]
+    responsiveImages = true
+    linkFullImages = true
+    hidden = false 
+
+# -----------------------------------------------------------------------------
+# マークダウン/パーサー設定
+# -----------------------------------------------------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # R2からの画像埋め込み等でHTMLを許可
+  [markup.highlight]
+    noClasses = false
+    style = "github-dark" # 備忘録らしく落ち着いたコード色
+
+# -----------------------------------------------------------------------------
+# 多言語対応 (日本語設定)
+# -----------------------------------------------------------------------------
+[languages.ja]
+  languageName = "Japanese"
+  weight = 1
+  [languages.ja.params]
+    # 日本語特有の設定
