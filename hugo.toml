@@ -47,13 +47,13 @@ theme = "PaperMod"
       url = "/tags"
 
   # Social Icons
-  [params.socialIcons]
+  [[params.socialIcons]]
     name = "x"
     url = "https://x.com/aoiro_labo"
-  [params.socialIcons]
+  [[params.socialIcons]]
     name = "note"
     url = "https://note.com/aoiro_labo"
-  [params.socialIcons]
+  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/aoir-labo"
 
