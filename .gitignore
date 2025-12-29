@@ -1,0 +1,12 @@
+//秘密情報（絶対にGitHubに上げない）
+.env
+
+//依存パッケージ
+node_modules/
+
+//OS生成ファイル
+.DS_Store
+Thumbs.db
+
+//Hugoなどのビルド成果物
+public/resources/
