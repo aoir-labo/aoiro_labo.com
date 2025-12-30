@@ -46,22 +46,17 @@ footer:
 # footer social link
 social:
   - name: GitHub
-    url: https://github.com/username
+    url: https://github.com/aoiro-labo
     weight: 10
     params:
       icon: github
   - name: Twitter
-    url: https://twitter.com/username
+    url: https://twitter.com/aoiro_labo
     weight: 20
     params:
       icon: twitter
-  - name: LinkedIn
-    url: https://linkedin.com/in/username
-    weight: 30
-    params:
-      icon: linkedin
   - name: Email
-    url: mailto:your.email@example.com
+    url: mailto:contact@aoiro-labo.com
     weight: 40
     params:
       icon: email
