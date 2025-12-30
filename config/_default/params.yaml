@@ -160,7 +160,7 @@ comments:
 
 # Analytics
 analytics:
-  enabled: false
+  enabled: true
   baidu:
     enabled: false
     id: "your-baidu-analytics-id"
