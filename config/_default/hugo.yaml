@@ -1,8 +1,8 @@
-baseURL: https://hugo-narrow.vercel.app/
-languageCode: en-US
-defaultContentLanguage: en
+baseURL: https://aoiro-labo.com/
+languageCode: ja-JP
+defaultContentLanguage: ja
 defaultContentLanguageInSubdir: false
-title: Hugo Narrow
+title: aoiro-labo
 theme: "hugo-narrow"
 
 hasCJKLanguage: true

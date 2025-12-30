@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mermaid on Hugo Narrow</title>
+    <link>http://localhost:1313/ja/tags/mermaid/</link>
+    <description>Recent content in Mermaid on Hugo Narrow</description>
+    <generator>Hugo</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 17 Jan 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KaTeXとMermaidテスト</title>
+      <link>http://localhost:1313/ja/posts/katex-mermaid-test/</link>
+      <pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/ja/posts/katex-mermaid-test/</guid>
+      <description>&lt;h1 id=&#34;katexとmermaidテスト&#34;&gt;KaTeXとMermaidテスト&lt;/h1&gt;&#xA;&lt;p&gt;この記事はKaTeX数式レンダリングとMermaidチャート機能をテストするために使用されます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;mermaidチャートテスト&#34;&gt;Mermaidチャートテスト&lt;/h2&gt;&#xA;&lt;h3 id=&#34;フローチャート&#34;&gt;フローチャート&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;pre class=&#34;mermaid&#34;&gt;&#xD;&#xA;  graph TD&#xD;&#xA;    A[開始] --&amp;gt; B{ユーザーですか？}&#xD;&#xA;    B --&amp;gt;|はい| C[ユーザーインターフェースを表示]&#xD;&#xA;    B --&amp;gt;|いいえ| D[ログインページを表示]&#xD;&#xA;    C --&amp;gt; E[ユーザー操作]&#xD;&#xA;    D --&amp;gt; F[ユーザーログイン]&#xD;&#xA;    F --&amp;gt; G{ログイン成功？}&#xD;&#xA;    G --&amp;gt;|はい| C&#xD;&#xA;    G --&amp;gt;|いいえ| H[エラーメッセージを表示]&#xD;&#xA;    H --&amp;gt; D&#xD;&#xA;    E --&amp;gt; I[終了]&#xD;&#xA;&lt;/pre&gt;&#xD;&#xA;&#xD;&#xA;&lt;h3 id=&#34;シーケンス図&#34;&gt;シーケンス図&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;pre class=&#34;mermaid&#34;&gt;&#xD;&#xA;  sequenceDiagram&#xD;&#xA;    participant ユーザー&#xD;&#xA;    participant ブラウザ&#xD;&#xA;    participant サーバー&#xD;&#xA;    participant データベース&#xD;&#xA;&#xD;&#xA;    ユーザー-&amp;gt;&amp;gt;ブラウザ: URLを入力&#xD;&#xA;    ブラウザ-&amp;gt;&amp;gt;サーバー: HTTPリクエストを送信&#xD;&#xA;    サーバー-&amp;gt;&amp;gt;データベース: データを照会&#xD;&#xA;    データベース--&amp;gt;&amp;gt;サーバー: データを返す&#xD;&#xA;    サーバー--&amp;gt;&amp;gt;ブラウザ: HTMLを返す&#xD;&#xA;    ブラウザ--&amp;gt;&amp;gt;ユーザー: ページを表示&#xD;&#xA;&lt;/pre&gt;&#xD;&#xA;&#xD;&#xA;&lt;h3 id=&#34;ガントチャート&#34;&gt;ガントチャート&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;pre class=&#34;mermaid&#34;&gt;&#xD;&#xA;  gantt&#xD;&#xA;    title プロジェクト開発タイムライン&#xD;&#xA;    dateFormat  YYYY-MM-DD&#xD;&#xA;    section 設計段階&#xD;&#xA;    要件分析           :done,    des1, 2024-01-01,2024-01-05&#xD;&#xA;    UI設計            :done,    des2, 2024-01-06, 2024-01-12&#xD;&#xA;    プロトタイプ作成    :active,  des3, 2024-01-13, 2024-01-18&#xD;&#xA;    section 開発段階&#xD;&#xA;    フロントエンド開発  :         dev1, 2024-01-19, 2024-02-15&#xD;&#xA;    バックエンド開発    :         dev2, 2024-01-19, 2024-02-20&#xD;&#xA;    データベース設計    :         dev3, 2024-01-19, 2024-01-25&#xD;&#xA;    section テスト段階&#xD;&#xA;    単体テスト         :         test1, 2024-02-16, 2024-02-25&#xD;&#xA;    統合テスト         :         test2, 2024-02-21, 2024-03-01&#xD;&#xA;    ユーザーテスト     :         test3, 2024-02-26, 2024-03-05&#xD;&#xA;&lt;/pre&gt;&#xD;&#xA;&#xD;&#xA;&lt;h2 id=&#34;katexテスト&#34;&gt;KaTeXテスト&lt;/h2&gt;&#xA;&lt;h3 id=&#34;インライン数式&#34;&gt;インライン数式&lt;/h3&gt;&#xA;&lt;p&gt;これはインライン数式です：$E = mc^2$、アインシュタインの質量エネルギー等価式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

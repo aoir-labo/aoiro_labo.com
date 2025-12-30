@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Générateur De Site Statique on aoiro-labo</title>
+    <link>http://localhost:1313/fr/tags/g%C3%A9n%C3%A9rateur-de-site-statique/</link>
+    <description>Recent content in Générateur De Site Statique on aoiro-labo</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 20 Feb 2024 14:30:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/g%C3%A9n%C3%A9rateur-de-site-statique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo - Le Framework le Plus Rapide au Monde</title>
+      <link>http://localhost:1313/fr/projects/hugo-framework/</link>
+      <pubDate>Tue, 20 Feb 2024 14:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/fr/projects/hugo-framework/</guid>
+      <description>Un générateur de site statique rapide et flexible construit avec Go, alimentant des milliers de sites web dans le monde.</description>
+    </item>
+  </channel>
+</rss>
