@@ -7,7 +7,7 @@ author:
   avatar: "/images/avatar.svg"
   social:
     - name: "GitHub"
-      url: "https://github.com/aoiro-labo/aoiro_labo.com
+      url: "https://github.com/aoiro-labo/aoiro_labo.com"
       icon: "github"
     - name: "Twitter"
       url: "https://twitter.com/aoiro_labo"
