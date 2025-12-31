@@ -6,8 +6,15 @@
     <description>Recent content in ホーム on aoiro-labo</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 31 Dec 2025 05:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 07:39:35 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Test Document</title>
+      <link>http://localhost:1313/posts/markdown-syntax-test-document/</link>
+      <pubDate>Wed, 31 Dec 2025 07:39:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown-syntax-test-document/</guid>
+      <description>This is a test document containing various Markdown syntax to verify the completeness of prose styles.</description>
+    </item>
     <item>
       <title>test</title>
       <link>http://localhost:1313/posts/test/</link>
