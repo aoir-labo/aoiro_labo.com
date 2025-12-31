@@ -10,3 +10,13 @@ Thumbs.db
 
 #Hugoなどのビルド成果物
 public/resources/
+
+#画像ファイル
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+*.mp4
+*.mov
