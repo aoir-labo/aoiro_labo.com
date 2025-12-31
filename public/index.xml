@@ -16,18 +16,18 @@
       <description>&lt;h1 id=&#34;h1タイトル&#34;&gt;H1タイトル&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2タイトル&#34;&gt;H2タイトル&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3以降のタイトル&#34;&gt;H3以降のタイトル&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;箇条書き &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;&#xA;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;太字&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;del&gt;取り消し線&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://example.com&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;リンク&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; チェックボックス（オフ）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; チェックボックス（オン）&lt;/p&gt;</description>
     </item>
     <item>
+      <title>このサイトについて</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>aoiro-labo の技術スタックと運営環境について</description>
+    </item>
+    <item>
       <title>À Propos</title>
       <link>http://localhost:1313/about.fr/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/about.fr/</guid>
       <description>Découvrez le thème Hugo Narrow et sa pile technologique</description>
-    </item>
-    <item>
-      <title>このサイトについて</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hugo Narrow テーマとその技術スタックについて</description>
     </item>
     <item>
       <title>关于</title>
