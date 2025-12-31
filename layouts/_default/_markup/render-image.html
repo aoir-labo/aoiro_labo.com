@@ -1,0 +1,11 @@
+{{- $src := .Destination -}}
+{{- if not (urls.Parse $src).Scheme -}}
+  {{- if hugo.IsProduction -}}
+    {{- /* 本番環境（R2）のURLを付与 */ -}}
+    {{- $src = printf "%s/%s" site.Params.imageHost (strings.TrimPrefix "/" $src) -}}
+  {{- else -}}
+    {{- /* ローカル開発環境はそのままのパス（static内）を参照 */ -}}
+    {{- $src = $src | relURL -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
