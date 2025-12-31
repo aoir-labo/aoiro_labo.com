@@ -6,36 +6,8 @@
     <description>Recent content in Tags on aoiro-labo</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 14:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Shortcode</title>
-      <link>http://localhost:1313/tags/shortcode/</link>
-      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/shortcode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>アラート</title>
-      <link>http://localhost:1313/tags/%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>テスト</title>
-      <link>http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Go</title>
       <link>http://localhost:1313/tags/go/</link>
@@ -65,62 +37,6 @@
       <description></description>
     </item>
     <item>
-      <title>Katex</title>
-      <link>http://localhost:1313/tags/katex/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/katex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mermaid</title>
-      <link>http://localhost:1313/tags/mermaid/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/mermaid/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>チャート</title>
-      <link>http://localhost:1313/tags/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>数学</title>
-      <link>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>レンダリング</title>
-      <link>http://localhost:1313/tags/%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0/</link>
-      <pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>画像</title>
-      <link>http://localhost:1313/tags/%E7%94%BB%E5%83%8F/</link>
-      <pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E7%94%BB%E5%83%8F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>コード</title>
-      <link>http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>シンタックスハイライト</title>
-      <link>http://localhost:1313/tags/%E3%82%B7%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AF%E3%82%B9%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%B7%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AF%E3%82%B9%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hugo</title>
       <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
@@ -132,20 +48,6 @@
       <link>http://localhost:1313/tags/tailwind-css/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/tailwind-css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>スタイル</title>
-      <link>http://localhost:1313/tags/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>プロス</title>
-      <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B9/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B9/</guid>
       <description></description>
     </item>
   </channel>

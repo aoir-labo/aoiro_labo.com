@@ -1,30 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://localhost:1313/ja/sitemap.xml</loc>
-    
-      <lastmod>2025-12-29T10:26:06+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2025-12-26T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/fr/sitemap.xml</loc>
-    
-      <lastmod>2025-12-26T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-12-31T05:35:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test/</loc>
+    <lastmod>2025-12-31T05:35:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-31T05:35:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/go/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/hugo-framework/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web%E9%96%8B%E7%99%BA/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E9%9D%99%E7%9A%84%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</loc>
+    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/hugo-narrow-theme/</loc>
+    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tailwind-css/</loc>
+    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about.fr/</loc>
+    <lastmod>2024-01-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-01-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about.zh-cn/</loc>
+    <lastmod>2024-01-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/_index.fr/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/_index.fr/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/projets/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/_index.zh-cn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/%E9%A1%B9%E7%9B%AE/</loc>
+  </url><url>
+    <loc>http://localhost:1313/_index.zh-cn/</loc>
+  </url>
+</urlset>

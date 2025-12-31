@@ -5,7 +5,7 @@
     "technology",
     "education"
   ],
-  "description": "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.",
+  "description": "備忘録的な何か",
   "dir": "ltr",
   "display": "standalone",
   "icons": [
@@ -15,11 +15,11 @@
       "type": "image/svg+xml"
     }
   ],
-  "lang": "en-US",
+  "lang": "ja-JP",
   "name": "aoiro-labo",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": "Hugo Narrow",
+  "short_name": "aoiro_labo",
   "start_url": "/",
   "theme_color": "#09090b"
 }
