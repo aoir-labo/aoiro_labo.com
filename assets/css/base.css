@@ -2,7 +2,6 @@
 :root {
   --base-font-family: 'Murecho', sans-serif;
 }
-
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -46,7 +45,7 @@
   --tw-prose-td-borders: var(--color-border);
 
   /* 字体和间距 */
-  font-family: "Murecho", ui-sans-serif, system-ui, sans-serif;
+  font-family: Murecho, system-ui, sans-serif;
   line-height: 1.7;
   font-size: 1rem;
   max-width: none;
