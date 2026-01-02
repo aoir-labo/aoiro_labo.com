@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap');
 :root {
-  --base-font-family: 'Murecho', sans-serif;
+  --base-font-family: 'Murecho', sans-serif!important;
 }
 ::-webkit-scrollbar {
   width: 6px;
