@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ホーム on aoiro-labo</title>
-    <link>http://localhost:52261/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in ホーム on aoiro-labo</description>
     <generator>Hugo</generator>
-    <language>ja-JP</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 02 Jan 2026 11:18:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52261/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>作品・媒体ごとによる映像・音声品質の比較</title>
-      <link>http://localhost:52261/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</link>
+      <link>http://localhost:1313/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</link>
       <pubDate>Fri, 02 Jan 2026 11:18:16 +0000</pubDate>
-      <guid>http://localhost:52261/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</guid>
+      <guid>http://localhost:1313/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</guid>
       <description>テレビ、サブスク、円盤などの画質や音質を比較してみる</description>
     </item>
     <item>
       <title>【2025-2026】テロップで見る年末年始のテレビ：歌番組編</title>
-      <link>http://localhost:52261/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</link>
+      <link>http://localhost:1313/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</link>
       <pubDate>Thu, 01 Jan 2026 09:35:33 +0000</pubDate>
-      <guid>http://localhost:52261/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</guid>
+      <guid>http://localhost:1313/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</guid>
       <description>年末年始を彩るテレビ番組のテロップ再現を通じて変化や哀愁を感じるシリーズ（予定）</description>
     </item>
     <item>
       <title>Markdown Syntax Test Document</title>
-      <link>http://localhost:52261/posts/markdown-syntax-test-document/</link>
+      <link>http://localhost:1313/posts/markdown-syntax-test-document/</link>
       <pubDate>Wed, 31 Dec 2025 07:39:35 +0000</pubDate>
-      <guid>http://localhost:52261/posts/markdown-syntax-test-document/</guid>
+      <guid>http://localhost:1313/posts/markdown-syntax-test-document/</guid>
       <description>This is a test document containing various Markdown syntax to verify the completeness of prose styles.</description>
     </item>
     <item>
       <title>test</title>
-      <link>http://localhost:52261/posts/test/</link>
+      <link>http://localhost:1313/posts/test/</link>
       <pubDate>Wed, 31 Dec 2025 05:35:15 +0000</pubDate>
-      <guid>http://localhost:52261/posts/test/</guid>
+      <guid>http://localhost:1313/posts/test/</guid>
       <description>これはテスト投稿です</description>
     </item>
     <item>
       <title>このサイトについて</title>
-      <link>http://localhost:52261/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0900</pubDate>
-      <guid>http://localhost:52261/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>aoiro-labo の技術スタックと運営環境について</description>
     </item>
     <item>
       <title>À Propos</title>
-      <link>http://localhost:52261/about.fr/</link>
+      <link>http://localhost:1313/about.fr/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:52261/about.fr/</guid>
+      <guid>http://localhost:1313/about.fr/</guid>
       <description>Découvrez le thème Hugo Narrow et sa pile technologique</description>
     </item>
     <item>
       <title>关于</title>
-      <link>http://localhost:52261/about.zh-cn/</link>
+      <link>http://localhost:1313/about.zh-cn/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:52261/about.zh-cn/</guid>
+      <guid>http://localhost:1313/about.zh-cn/</guid>
       <description>了解 Hugo Narrow 主题及其技术栈</description>
     </item>
     <item>
       <title>Accueil</title>
-      <link>http://localhost:52261/_index.fr/</link>
+      <link>http://localhost:1313/_index.fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/_index.fr/</guid>
+      <guid>http://localhost:1313/_index.fr/</guid>
       <description></description>
     </item>
     <item>
       <title>Archives</title>
-      <link>http://localhost:52261/archives/_index.fr/</link>
+      <link>http://localhost:1313/archives/_index.fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/archives/_index.fr/</guid>
+      <guid>http://localhost:1313/archives/_index.fr/</guid>
       <description></description>
     </item>
     <item>
       <title>Projets</title>
-      <link>http://localhost:52261/projects/projets/</link>
+      <link>http://localhost:1313/projects/projets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/projects/projets/</guid>
+      <guid>http://localhost:1313/projects/projets/</guid>
       <description>&lt;p&gt;Bienvenue dans ma vitrine de projets ! Vous trouverez ici une collection de mes travaux, y compris des applications web, des contributions open source et des projets expérimentaux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>归档</title>
-      <link>http://localhost:52261/archives/_index.zh-cn/</link>
+      <link>http://localhost:1313/archives/_index.zh-cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/archives/_index.zh-cn/</guid>
+      <guid>http://localhost:1313/archives/_index.zh-cn/</guid>
       <description></description>
     </item>
     <item>
       <title>项目</title>
-      <link>http://localhost:52261/projects/%E9%A1%B9%E7%9B%AE/</link>
+      <link>http://localhost:1313/projects/%E9%A1%B9%E7%9B%AE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/projects/%E9%A1%B9%E7%9B%AE/</guid>
+      <guid>http://localhost:1313/projects/%E9%A1%B9%E7%9B%AE/</guid>
       <description>&lt;p&gt;欢迎来到我的项目展示！在这里您将找到我的作品集合，包括 Web 应用程序、开源贡献和实验性项目。&lt;/p&gt;</description>
     </item>
     <item>
       <title>首页</title>
-      <link>http://localhost:52261/_index.zh-cn/</link>
+      <link>http://localhost:1313/_index.zh-cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/_index.zh-cn/</guid>
+      <guid>http://localhost:1313/_index.zh-cn/</guid>
       <description></description>
     </item>
   </channel>

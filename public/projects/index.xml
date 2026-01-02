@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>プロジェクト on aoiro-labo</title>
-    <link>http://localhost:52261/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in プロジェクト on aoiro-labo</description>
     <generator>Hugo</generator>
-    <language>ja-JP</language>
-    <atom:link href="http://localhost:52261/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projets</title>
-      <link>http://localhost:52261/projects/projets/</link>
+      <link>http://localhost:1313/projects/projets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/projects/projets/</guid>
+      <guid>http://localhost:1313/projects/projets/</guid>
       <description>&lt;p&gt;Bienvenue dans ma vitrine de projets ! Vous trouverez ici une collection de mes travaux, y compris des applications web, des contributions open source et des projets expérimentaux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>项目</title>
-      <link>http://localhost:52261/projects/%E9%A1%B9%E7%9B%AE/</link>
+      <link>http://localhost:1313/projects/%E9%A1%B9%E7%9B%AE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52261/projects/%E9%A1%B9%E7%9B%AE/</guid>
+      <guid>http://localhost:1313/projects/%E9%A1%B9%E7%9B%AE/</guid>
       <description>&lt;p&gt;欢迎来到我的项目展示！在这里您将找到我的作品集合，包括 Web 应用程序、开源贡献和实验性项目。&lt;/p&gt;</description>
     </item>
   </channel>

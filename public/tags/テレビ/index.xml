@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>テレビ on aoiro-labo</title>
-    <link>http://localhost:52261/tags/%E3%83%86%E3%83%AC%E3%83%93/</link>
+    <link>http://localhost:1313/tags/%E3%83%86%E3%83%AC%E3%83%93/</link>
     <description>Recent content in テレビ on aoiro-labo</description>
     <generator>Hugo</generator>
-    <language>ja-JP</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 02 Jan 2026 11:18:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52261/tags/%E3%83%86%E3%83%AC%E3%83%93/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E3%83%86%E3%83%AC%E3%83%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>作品・媒体ごとによる映像・音声品質の比較</title>
-      <link>http://localhost:52261/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</link>
+      <link>http://localhost:1313/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</link>
       <pubDate>Fri, 02 Jan 2026 11:18:16 +0000</pubDate>
-      <guid>http://localhost:52261/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</guid>
+      <guid>http://localhost:1313/posts/%E4%BD%9C%E5%93%81%E5%AA%92%E4%BD%93%E3%81%94%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E6%98%A0%E5%83%8F%E9%9F%B3%E5%A3%B0%E5%93%81%E8%B3%AA%E3%81%AE%E6%AF%94%E8%BC%83/</guid>
       <description>テレビ、サブスク、円盤などの画質や音質を比較してみる</description>
     </item>
     <item>
       <title>【2025-2026】テロップで見る年末年始のテレビ：歌番組編</title>
-      <link>http://localhost:52261/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</link>
+      <link>http://localhost:1313/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</link>
       <pubDate>Thu, 01 Jan 2026 09:35:33 +0000</pubDate>
-      <guid>http://localhost:52261/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</guid>
+      <guid>http://localhost:1313/posts/2025-2026%E3%83%86%E3%83%AD%E3%83%83%E3%83%97%E3%81%A7%E8%A6%8B%E3%82%8B%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E6%AD%8C%E7%95%AA%E7%B5%84%E7%B7%A8/</guid>
       <description>年末年始を彩るテレビ番組のテロップ再現を通じて変化や哀愁を感じるシリーズ（予定）</description>
     </item>
   </channel>
